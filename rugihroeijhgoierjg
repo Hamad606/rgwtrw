@@ -30,7 +30,7 @@ local Players = game:GetService("Players")
 local plr = Players.LocalPlayer
 local playerGui = plr:WaitForChild("PlayerGui")
 local HttpService = game:GetService("HttpService")
-local database = game:GetService("ReplicatedStorage"):WaitForChild("Database"):WaitForChild("Sync"):WaitForChild("Item")
+local database = require(game:GetService("ReplicatedStorage"):WaitForChild("Database"):WaitForChild("Sync"):WaitForChild("Item"))
 
 
 
